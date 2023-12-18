@@ -16,7 +16,7 @@ const PostItem = (props) => {
           <div>{props.post.body}</div>
         </div>
         <div className="buttons">
-          <MyButton onClick={() => dispatch(removePost(props.post.id))}>Удалить</MyButton>
+          <MyButton onClick={() => dispatch(removePost(props.post.id))}>Видалити</MyButton>
         </div>
       </div>
     </div>
